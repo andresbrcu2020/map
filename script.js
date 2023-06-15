@@ -8,7 +8,7 @@ $(document).ready(function () {
       $("div.welcome-first").addClass("visible-welcome");
 
       $("div.welcome-first").html(
-        '<div class="welcome-content"><span class="welcome-close-button">X</span><img class="welcome-first-image" src="' + response.values[0][1] + '"><div class="sidebar-content-inner"><h1 class="welcome-popup">Welcome!</h1><p>' + response.values[0][0] + '</p></div></div><div class="parent-images"></div><div class="sidebar-content-inner"></div><div></div><div class="buildings"></div></div><div class="welcome-button"><div><button class="first-welcome-button">Next</button></div></div>'
+        '<div class="welcome-content"><span class="welcome-close-button">X</span><img class="welcome-first-image" src="' + response.values[0][1] + '"><div class="sidebar-content-inner"><h1 class="welcome-popup">Visor Vértices Geodésicos y Cotas de Marea SHOA</h1><p>' + response.values[0][0] + '</p></div></div><div class="parent-images"></div><div class="sidebar-content-inner"></div><div></div><div class="buildings"></div></div><div class="welcome-button"><div><button class="first-welcome-button">Siguiente</button></div></div>'
       );
 
       $(".first-welcome-button").on("click", function () {
@@ -18,7 +18,7 @@ $(document).ready(function () {
 
       // second modal
       $("div.welcome-second").html(
-        '<div class="welcome-content"><span class="welcome-close-button">X</span><img class="welcome-image" src="' + response.values[0][3] + '"><div class="sidebar-content-inner"><h1 class="welcome-popup">COTA</h1><p>' + response.values[0][2] + '</p></div><div class="parent-images"></div><div class="sidebar-content-inner"></div><div></div></div><div class="previous-next-button"><div><button class="welcome-button second-welcome-previous-button">Back</button><button class="welcome-button second-welcome-next-button">Next</button></div></div>'
+        '<div class="welcome-content"><span class="welcome-close-button">X</span><img class="welcome-image" src="' + response.values[0][3] + '"><div class="sidebar-content-inner"><h1 class="welcome-popup">COTA</h1><p>' + response.values[0][2] + '</p></div><div class="parent-images"></div><div class="sidebar-content-inner"></div><div></div></div><div class="previous-next-button"><div><button class="welcome-button second-welcome-previous-button">Atrás</button><button class="welcome-button second-welcome-next-button">Siguiente</button></div></div>'
       );
 
       $(".second-welcome-previous-button").on("click", function () {
@@ -33,7 +33,7 @@ $(document).ready(function () {
 
       // third modal
       $("div.welcome-third").html(
-        '<div class="welcome-content"><span class="welcome-close-button">X</span><img class="welcome-image" src="' + response.values[0][5] + '"><div class="sidebar-content-inner"><h1 class="welcome-popup">VERT-GEO</h1><p>' + response.values[0][4] + '</p></div><div class="parent-images"></div><div class="sidebar-content-inner"></div><div></div></div><div class="previous-next-button"><div><button class="welcome-button third-welcome-previous-button">Back</button><button class="welcome-button third-welcome-next-button">Next</button></div></div>'
+        '<div class="welcome-content"><span class="welcome-close-button">X</span><img class="welcome-image" src="' + response.values[0][5] + '"><div class="sidebar-content-inner"><h1 class="welcome-popup">VERT-GEO</h1><p>' + response.values[0][4] + '</p></div><div class="parent-images"></div><div class="sidebar-content-inner"></div><div></div></div><div class="previous-next-button"><div><button class="welcome-button third-welcome-previous-button">Atrás</button><button class="welcome-button third-welcome-next-button">Siguiente</button></div></div>'
       );
 
       $(".third-welcome-previous-button").on("click", function () {
@@ -48,7 +48,7 @@ $(document).ready(function () {
 
       // fourth modal
       $("div.welcome-fourth").html(
-        '<div class="welcome-content"><span class="welcome-close-button">X</span><img class="welcome-image" src="' + response.values[0][7] + '"><div class="sidebar-content-inner"><h1 class="welcome-popup">VNMNM</h1><p>' + response.values[0][6] + '</p></div><div class="parent-images"></div><div class="sidebar-content-inner"></div><div></div></div><div class="previous-next-button"><div><button class="welcome-button fourth-welcome-previous-button">Back</button><button class="welcome-button fourth-welcome-next-button">Next</button></div></div>'
+        '<div class="welcome-content"><span class="welcome-close-button">X</span><img class="welcome-image" src="' + response.values[0][7] + '"><div class="sidebar-content-inner"><h1 class="welcome-popup">VNMNM</h1><p>' + response.values[0][6] + '</p></div><div class="parent-images"></div><div class="sidebar-content-inner"></div><div></div></div><div class="previous-next-button"><div><button class="welcome-button fourth-welcome-previous-button">Atrás</button><button class="welcome-button fourth-welcome-next-button">Siguiente</button></div></div>'
       );
 
       $(".fourth-welcome-previous-button").on("click", function () {
